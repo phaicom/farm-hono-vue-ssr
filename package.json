@@ -15,7 +15,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "web:dev": "turbo run dev --filter=web",
+    "web:dev": "turbo run dev --filter=@farm-hono-vue-ssr/web",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix --cache",
     "postinstall": "npx simple-git-hooks"

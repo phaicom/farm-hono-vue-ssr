@@ -1,0 +1,21 @@
+{
+  "name": "@farm-hono-vue-ssr/web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "farm start",
+    "start": "farm start",
+    "build": "farm build",
+    "preview": "farm preview",
+    "clean": "farm clean"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@farmfe/cli": "^1.0.4",
+    "@farmfe/core": "^1.6.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "core-js": "^3.40.0"
+  }
+}
