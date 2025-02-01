@@ -10,6 +10,7 @@ To build:
 
 ```bash
 bun run build
+```
 
 To preview:
 

@@ -7,7 +7,7 @@ This template should help you start developing using Vue and TypeScript in Farm.
 Install the dependencies:
 
 ```bash
-pnpm install
+bun run install
 ```
 
 ## Get Started
@@ -15,23 +15,23 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm start
+bun run start
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
+bun run build
 ```
 
 Preview the Production build product:
 
 ```bash
-pnpm preview
+bun run preview
 ```
 
 Clear persistent cache local files
 
 ```bash
-pnpm clean
+bun run clean
 ```
