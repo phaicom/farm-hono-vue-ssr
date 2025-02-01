@@ -3,14 +3,17 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "farm start",
     "start": "farm start",
-    "build": "farm build",
-    "preview": "farm preview",
-    "clean": "farm clean"
+    "watch": "farm watch --config farm.config.server.ts",
+    "build": "bun run build:server && farm build",
+    "build:server": "farm build --config farm.config.server.ts",
+    "preview": "bun server.js"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "express": "^4.21.2",
+    "hono": "^4.6.20",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@farmfe/cli": "^1.0.4",
