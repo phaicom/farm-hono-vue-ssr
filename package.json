@@ -13,9 +13,8 @@
     "apps/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "web:dev": "turbo run dev --filter=@farm-hono-vue-ssr/web",
+    "build": "turbo run build --filter=@farm-hono-vue-ssr/web",
+    "preview": "turbo run preview --filter=@farm-hono-vue-ssr/web",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix --cache",
     "postinstall": "npx simple-git-hooks"

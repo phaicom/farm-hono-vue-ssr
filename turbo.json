@@ -10,18 +10,11 @@
         "^build"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [".output/**", "dist/**"]
+      "outputs": ["dist/**", "build/**"]
     },
-    "dev": {
+    "preview": {
       "dependsOn": [
-        "^dev"
-      ],
-      "cache": false,
-      "persistent": true
-    },
-    "start": {
-      "dependsOn": [
-        "^start"
+        "^preview"
       ]
     }
   }
